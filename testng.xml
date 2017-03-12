@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+		<parameter name="platformName" value="Windows" />
+		<parameter name="platformVersion" value="8.1" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="56" />		
+		<parameter name="screenResolution" value="" />
+    <classes>
+      <class name="TestWebVisualLoginPackage.TestWebVisualLoginClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
