@@ -10,5 +10,5 @@ The mechanism of visual analysis and transactions finds the popups, enters the u
 Check out Perfecto's visual analysis functions for more details: http://developers.perfectomobile.com/display/PD/Visual+Analysis+Functions
 
 Project structure:
-It's a testNG project, main file is in "TestWebVisualLogin.java". It get the driver defined in testNG.xml (Chrome 56 on Win 10 machine) from utils.java and orchestrates the loging etc. VisualHandle.java does the text Edit-Set for the login window. 
+It's a testNG project, main file is in "TestWebVisualLogin.java". It get the driver defined in testNG.xml (Chrome 56 on Win 10 machine) from utils.java and orchestrates the logging etc. VisualHandle.java does the text Edit-Set for the login window. 
 PerfectoUtils.java brings on ocrTextClick. 
