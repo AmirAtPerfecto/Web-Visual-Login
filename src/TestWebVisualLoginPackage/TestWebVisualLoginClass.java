@@ -32,7 +32,7 @@ public class TestWebVisualLoginClass {
 		// Click login
 		PerfectoUtils.ocrTextClick(driver, "Log In", 99, 30);
 		// validate we're logged in
-		PerfectoUtils.ocrTextCheck(driver, "You Are", 99, 10);
+		PerfectoUtils.ocrTextCheck(driver, "You Are", 99, 10); 
 		// dismiss the 2nd popup
 		PerfectoUtils.ocrTextClick(driver, "Never", 99, 30);
 	}
