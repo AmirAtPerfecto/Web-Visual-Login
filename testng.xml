@@ -5,7 +5,7 @@
 		<parameter name="platformName" value="Windows" />
 		<parameter name="platformVersion" value="8.1" />
 		<parameter name="browserName" value="Chrome" />
-		<parameter name="browserVersion" value="56" />		
+		<parameter name="browserVersion" value="latest" />		
 		<parameter name="screenResolution" value="" />
     <classes>
       <class name="TestWebVisualLoginPackage.TestWebVisualLoginClass"/>
