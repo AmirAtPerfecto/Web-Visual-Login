@@ -34,7 +34,12 @@ public class TestWebVisualLoginClass {
 		// validate we're logged in
 		PerfectoUtils.ocrTextCheck(driver, "You Are", 99, 10); 
 		// dismiss the 2nd popup
-		PerfectoUtils.ocrTextClick(driver, "Never", 99, 30);
+		try {
+			PerfectoUtils.ocrTextClick(driver, "Never", 99, 30);
+		} catch (Exception e) {
+			// It may not show up ;)
+			e.printStackTrace();
+		}
 	}
 	@AfterTest
 	public void afterTest() throws IOException {
